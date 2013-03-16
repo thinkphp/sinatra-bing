@@ -1,6 +1,8 @@
-# A Simple Search Interface for Microsoft's Bing using Sinatra.
+# sinatra-bing
 
-## Install
+A Simple Search Interface for Microsoft's Bing using Sinatra and binger.
+
+# Install
 
 ```
 $ git clone git://github.com/thinkphp/sinatra-bing.git
@@ -9,3 +11,7 @@ $ bundle install #generate Gemfile.lock
 $ rackup
 
 ```
+
+# License
+
+MIT
