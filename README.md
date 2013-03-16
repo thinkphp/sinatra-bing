@@ -12,6 +12,10 @@ $ rackup
 
 ```
 
+# Test it
+
+Open a browser and go to: http://localhost:9292. Cheers!
+
 # License
 
 MIT
