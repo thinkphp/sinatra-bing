@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ git clone
+$ git clone git://github.com/thinkphp/sinatra-bing.git
 $ cd sinatra-bing
 $ bundle install #generate Gemfile.lock
 $ rackup
