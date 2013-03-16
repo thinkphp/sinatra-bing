@@ -1,5 +1,3 @@
-require 'binger'
-
 class MyApp < Sinatra::Base
 
   get '/' do
