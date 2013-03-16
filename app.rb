@@ -29,7 +29,7 @@ class MyApp < Sinatra::Base
 
        results['SearchResponse']['Web']['Results'].each do |item|
 
-                out = out + '<li><h4><a href="#">' + item['Title'] + '</a></h4><p>'+ item['Description'] +'</p></li>'
+                out = out + '<li><h4><a target="_blank" href="'+ item['Url'] +'">' + item['Title'] + '</a></h4><p>'+ item['Description'] +'</p></li>'
        end
 
        out = out + '</ol>'
